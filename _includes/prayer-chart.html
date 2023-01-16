@@ -1,0 +1,35 @@
+<div class="container-fluid bg-very-light-blue">
+    <div class="container">
+        <div class="row">
+            <!-- widget from https://masjidal.com/ -->
+            <div class="col-sm-4 border shadow-lg bg-light p-4 my-4 text-center">
+                <h2>Prayer Timings</h2>
+                <p class="lead">
+                    <span id="prayer-date-gregorian">-</span> • <span id="prayer-date-hijri">-</span>
+                </p>
+                <table id="prayer-times" data-toggle="table" data-ajax="masjidalPrayerTimeAPIRequest" class="table table-bordered bg-light">
+                    <thead>
+                        <tr>
+                            <th class="font-weight-bold" data-field="prayer" data-align="center"></th>
+                            <th data-field="athan" data-align="center">Athan</th>
+                            <th data-field="iqama" data-align="center">Iqamah</th>
+                        </tr>
+                    </thead>
+                </table>
+                <div class="lead font-weight-bolder">Jumu'ah - <span id="prayer-jumah">-</span></div>
+                <p class="mt-4 mb-0">
+                    <a class="btn btn-outline-primary btn-sm" href="/prayer-timetable" role="button">Monthly Prayer & Iqamah Timings <i class="bi bi-arrow-right-short"></i></a>
+                </p>
+            </div>
+            <div class="col-sm my-4">
+                <!-- Slider from MOHID -->
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe src="https://us.mohid.co/ma/boston/macclm/masjid/widget/api/index/?m=slideshow" 
+                        type="text/html" class="embed-responsive-item" frameborder="0" 
+                        allowtransparency="true" allowfullscreen="" scrolling="no">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

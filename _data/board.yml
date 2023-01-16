@@ -1,0 +1,39 @@
+- name: Mohamed Khames Ben Hadj Miled
+  suffix:
+  line1: President
+  line2: 
+  location: Lexington, MA
+
+- name: Dr. Shams Iqbal
+  suffix: M.D
+  line1: Vice President
+  line2: 
+  location: Lexington, MA
+
+- name: Saleem Shaik
+  suffix: 
+  line1: Treasurer
+  line2: 
+  location: Burlington, MA
+
+- name: Dr. Akmal Sarwar
+  suffix: M.D
+  line1: Treasurer
+  line2: 
+  location: Lexington, MA
+
+- name: Zahid Iftear
+  suffix: 
+  line1: Secretary
+  line2: 
+  location: Lexington, MA
+
+- name: Syed N. Nuruzzaman
+  line1: Director
+  line2: 
+  location: Lexington, MA
+
+- name: Paula Karim
+  line1: Director
+  line2: 
+  location: Lexington, MA

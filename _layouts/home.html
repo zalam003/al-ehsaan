@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+{% include head.html %}
+<link href="https://unpkg.com/bootstrap-table@1.20.2/dist/bootstrap-table.min.css" rel="stylesheet">
+
+<body>
+  {% include top-navigation.html %}
+  {{ content }}
+  {% include floating_donate_button.html %}
+  {% include footer.html %}
+  <script src="https://unpkg.com/bootstrap-table@1.20.2/dist/bootstrap-table.min.js"></script>
+  <script>
+    // your custom ajax request here
+    function masjidalPrayerTimeAPIRequest(params) {
+      var url = 'https://masjidal.com/api/v1/time?masjid_id=rGAEj9dn'
+      $.get(url).then(function (res) {
+        console.log(res)
+
+        var data = res.data
+        $("#prayer-date-hijri").text(data.hijri)
+        $("#prayer-date-gregorian").text(data.date)
+
+        iqama = data.iqama;
+        salah = data.salah;
+
+        params.success([{
+          'prayer': 'Fajr',
+          'athan': salah.fajr,
+          'iqama': iqama.fajr
+        }, {
+          'prayer': 'Dhuhr',
+          'athan': salah.zuhr,
+          'iqama': iqama.zuhr
+        }, {
+          'prayer': 'Asr',
+          'athan': salah.asr,
+          'iqama': iqama.asr
+        }, {
+          'prayer': 'Maghrib',
+          'athan': salah.maghrib,
+          'iqama': iqama.maghrib
+        }, {
+          'prayer': 'Isha',
+          'athan': salah.isha,
+          'iqama': iqama.isha
+        }])
+
+        $("#prayer-jumah").text(iqama.jummah1)
+      })
+    }
+  </script>
+</body>
+
+</html>
