@@ -7,25 +7,5 @@
       link: /board
 - name: Events
   link: /events
-- name: Prayer
-  link: #
-  dropdown:
-    - name: Prayer Timetable
-      link: /prayer-timetable
-    - name: dropdown-divider
-    - name: About Prayer
-      link: /about-prayer
-    - name: How to pray
-      link: /how-to-pray
-    - name: dropdown-divider
-    - name: Neighboring Mosques
-      link: /neighboring-mosques
-- name: School
-  link: /school
-- name: Food Drive
-  link: /food-drive
 - name: Contact
   link: /contact
-- name: myMACCLM
-  link: https://login.microsoftonline.com/
-  tab: newtab
