@@ -1,65 +1,51 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container">
     <a class="navbar-brand" href="/">
-      <img src="/assets/images/logo.png" width="190" class="d-inline-block align-middle" alt="Al Ehsan">
+      <img src={{ "/assets/images/logo.png" | relative_url }} width="50" class="d-inline-block align-middle" alt="Al Ehsan">
     </a>
-    <form class="form-inline my-2 my-lg-0 d-md-none">
-      <a class="btn btn-warning" href="https://us.mohid.co/ma/boston/macclm/masjid/online/donation/index/1"
-        target="_blank" rel="noreferrer noopener" role="button">
-        Donate
-      </a>
-    </form>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         {% for menu in site.data.top-navigation %}
-          {% if menu.dropdown %}
-            <li class="nav-item pl-2 pr-2 dropdown">
-              <a class="nav-link dropdown-toggle text-green" href="#" id="navbarDropdown" role="button"
-                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                {{ menu.name }}
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                {% for subitem in menu.dropdown %}
-                  {% if subitem.name == "dropdown-divider" %}
-                  <div class="dropdown-divider"></div>
-                  {% else %}
-                    {% if subitem.tab == "newtab" %}
-                      <a class="nav-link text-green" href="{{ subitem.link }}" target="_blank" rel="noreferrer noopener">
-                        {{ subitem.name }}
-                      </a>
-                    {% else %}
-                      <a class="dropdown-item text-green" href="{{ subitem.link }}">
-                        {{ subitem.name }}
-                      </a>
-                    {% endif %}
-                  {% endif %}
-                {% endfor %}
-              </div>
-            </li>
+        {% if menu.dropdown %}
+        <li class="nav-item pl-2 pr-2 dropdown">
+          <a class="nav-link dropdown-toggle text-green" href="#" id="navbarDropdown" role="button"
+            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            {{ menu.name }}
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            {% for subitem in menu.dropdown %}
+            {% if subitem.name == "dropdown-divider" %}
+            <div class="dropdown-divider"></div>
+            {% else %}
+            {% if subitem.tab == "newtab" %}
+            <a class="nav-link text-green" href="{{ subitem.link }}" target="_blank" rel="noreferrer noopener">
+              {{ subitem.name }}
+            </a>
+            {% else %}
+            <a class="dropdown-item text-green" href="{{ subitem.link }}">
+              {{ subitem.name }}
+            </a>
+            {% endif %}
+            {% endif %}
+            {% endfor %}
+          </div>
+        </li>
+        {% else %}
+        <li class="nav-item pl-2 pr-2">
+          {% if menu.tab == "newtab" %}
+          <a class="nav-link text-green" href="{{ menu.link }}" target="_blank" rel="noreferrer noopener">
+            {{ menu.name }}
+          </a>
           {% else %}
-            <li class="nav-item pl-2 pr-2">
-              {% if menu.tab == "newtab" %}
-                <a class="nav-link text-green" href="{{ menu.link }}" target="_blank" rel="noreferrer noopener">
-                  {{ menu.name }}
-                </a>
-              {% else %}
-                <a class="nav-link text-green" href="{{ menu.link }}">
-                  {{ menu.name }}
-                </a>
-              {% endif %}
-            </li>
+          <a class="nav-link text-green" href="{{ menu.link }}">
+            {{ menu.name }}
+          </a>
           {% endif %}
+        </li>
+        {% endif %}
         {% endfor %}
       </ul>
     </div>
-    <form class="form-inline my-2 my-lg-0 d-none d-md-block">
-      <a class="btn btn-warning" href="https://us.mohid.co/ma/boston/macclm/masjid/online/donation/index/1"
-        target="_blank" rel="noreferrer noopener" role="button">Donate</a>
-    </form>
   </div>
 </nav>

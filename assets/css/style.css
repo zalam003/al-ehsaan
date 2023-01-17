@@ -1,0 +1,62 @@
+.home-domation {
+  /* fallback for old browsers */
+  background: #c1dfc4;
+
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(
+    to bottom,
+    rgba(193, 223, 196, 1),
+    rgba(222, 236, 221, 1)
+  );
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(
+    to bottom,
+    rgba(193, 223, 196, 1),
+    rgba(222, 236, 221, 1)
+  );
+}
+.bg-very-light-blue {
+  /* fallback for old browsers */
+  background: #accbee;
+
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(
+    to right,
+    rgba(172, 203, 238, 0.25),
+    rgba(0, 231, 240, 0.25)
+  );
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(
+    to right,
+    rgba(172, 203, 238, 0.25),
+    rgba(0, 231, 240, 0.25)
+  );
+}
+img.resizable {
+  max-width: 100%;
+  height: auto;
+}
+.text-green {
+  font-weight: bold;
+  color: rgb(3, 100, 3);
+}
+/* Modify the background color */
+.navbar-light {
+  background-color: #ffffff;
+}
+/* Responsive Calendar */
+.responsiveCal {
+  position: relative;
+  padding-bottom: 75%;
+  height: 0;
+  overflow: hidden;
+}
+.responsiveCal iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}

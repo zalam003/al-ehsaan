@@ -1,0 +1,79 @@
+.zakat-input {
+  background-color: rgba(241, 241, 241, 0.29);
+  padding: 20px;
+  border: 1px solid #f1f1f1;
+}
+
+.form-group {
+  display: flex;
+  padding: 10px 0;
+  clear: both;
+}
+
+.control-label {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.form-control {
+  background-color: #fff;
+  box-sizing: border-box !important;
+  border-radius: 2px !important;
+  color: #333;
+  display: block;
+  float: none;
+  font-size: 16px !important;
+  border: 1px solid #ccc !important;
+  padding: 6px 10px !important;
+  height: 38px !important;
+  width: 100% !important;
+  line-height: 1.3 !important;
+  box-shadow: none !important;
+}
+
+.btn.btn-success a {
+  color: #000 !important;
+}
+
+.btn.btn-success {
+  background-color: #ddd;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  display: inline-flex;
+  padding: 12px 15px;
+  margin-top: 15px;
+}
+
+h5.col-sm-8 {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.col-sm-4 h5 {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.entry-wrap {
+  padding: 0px 0px !important;
+}
+
+.p-meta {
+  display: none;
+}
+
+.menu-image-title {
+  display: none;
+}
+
+.wa__btn_popup_txt {
+  display: none;
+}
+
+.wa__btn_popup_icon {
+  display: none;
+}
+
+.x-recent-posts .x-recent-posts-date {
+  display: none;
+}

@@ -1,0 +1,169 @@
+.noOutline {
+  outline: none !important;
+}
+
+.wcagOutline:focus {
+  outline: 1px dashed transparent !important;
+  outline-offset: 2px !important;
+  transition: none !important;
+}
+
+button#nebula_div_btn {
+  height: auto !important;
+}
+
+.kampyle_vertical_button {
+  background-color: transparent !important;
+  font-family: sans-serif;
+  cursor: pointer;
+  position: fixed;
+  top: 45%;
+  z-index: 99999990;
+  height: 35px !important;
+  min-height: 35px !important;
+  max-height: 35px !important;
+  width: 125px !important;
+  max-width: 125px !important;
+  min-width: 125px !important;
+  -ms-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.kampyle_vertical_button .kampyle_button {
+  height: 35px;
+  min-height: 35px !important;
+  max-height: 35px !important;
+  width: 125px !important;
+  min-width: 125px !important;
+  max-width: 125px !important;
+  background: transparent;
+  color: #ffffff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.kampyle_vertical_button .kampyle_button-text {
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 35px;
+  text-align: center;
+  font-weight: normal !important;
+}
+
+.kampyle_vertical_button.kampyle_left .kampyle_button {
+  -webkit-border-radius: 3px 3px 0 0;
+  -moz-border-radius: 3px 3px 0 0;
+  -ms-border-radius: 3px 3px 0 0;
+  border-radius: 3px 3px 0 0;
+}
+
+.kampyle_vertical_button.kampyle_right {
+  right: -45px;
+}
+
+.kampyle_vertical_button.kampyle_left {
+  left: -45px;
+}
+
+.kampyle_vertical_button.kampyle_right .kampyle_button {
+  -webkit-border-radius: 0 0 3px 3px;
+  -moz-border-radius: 0 0 3px 3px;
+  -ms-border-radius: 0 0 3px 3px;
+  border-radius: 0 0 3px 3px;
+}
+
+.kampyle_vertical_button.kampyle_right,
+.kampyle_vertical_button.kampyle_left {
+  padding: 0 !important;
+}
+
+.kampyle_vertical_button:hover .kampyle_button-text {
+  color: #ffffff;
+}
+
+.kampyle_vertical_button:hover .kampyle_button {
+  background-color: transparent;
+}
+
+button#nebula_div_btn {
+  height: auto !important;
+}
+
+.kampyle_vertical_button {
+  background-color: transparent !important;
+  font-family: sans-serif;
+  cursor: pointer;
+  position: fixed;
+  top: 45%;
+  z-index: 99999990;
+  height: 35px !important;
+  min-height: 35px !important;
+  max-height: 35px !important;
+  width: 125px !important;
+  max-width: 125px !important;
+  min-width: 125px !important;
+  -ms-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.kampyle_vertical_button .kampyle_button {
+  height: 35px;
+  min-height: 35px !important;
+  max-height: 35px !important;
+  width: 125px !important;
+  min-width: 125px !important;
+  max-width: 125px !important;
+  background: transparent;
+  color: #ffffff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.kampyle_vertical_button .kampyle_button-text {
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 35px;
+  text-align: center;
+  font-weight: normal !important;
+}
+
+.kampyle_vertical_button.kampyle_left .kampyle_button {
+  -webkit-border-radius: 3px 3px 0 0;
+  -moz-border-radius: 3px 3px 0 0;
+  -ms-border-radius: 3px 3px 0 0;
+  border-radius: 3px 3px 0 0;
+}
+
+.kampyle_vertical_button.kampyle_right {
+  right: -45px;
+}
+
+.kampyle_vertical_button.kampyle_left {
+  left: -45px;
+}
+
+.kampyle_vertical_button.kampyle_right .kampyle_button {
+  -webkit-border-radius: 0 0 3px 3px;
+  -moz-border-radius: 0 0 3px 3px;
+  -ms-border-radius: 0 0 3px 3px;
+  border-radius: 0 0 3px 3px;
+}
+
+.kampyle_vertical_button.kampyle_right,
+.kampyle_vertical_button.kampyle_left {
+  padding: 0 !important;
+}
+
+.kampyle_vertical_button:hover .kampyle_button-text {
+  color: #ffffff;
+}
+
+.kampyle_vertical_button:hover .kampyle_button {
+  background-color: transparent;
+}
