@@ -1,15 +1,15 @@
 - name: About
-  link: /about
+  link: {{ site.baseurl }}/about
 - name: Events
-  link: /events
+  link: {{ site.baseurl }}/events
 - name: Contact
   link: #
   dropdown:
     - name: Services
-      link: /services
+      link: {{ site.baseurl }}/services
     - name: Volunteer
-      link: /volunteer
+      link: {{ site.baseurl }}/volunteer
     - name: Partnership
-      link: /partnership
+      link: {{ site.baseurl }}/partnership
     - name: Satellite center
-      link: /salellite-center
+      link: {{ site.baseurl }}/salellite-center

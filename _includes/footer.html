@@ -2,10 +2,10 @@
     <div class="container">
         <div class="row">
             <div class="col-sm">
-                <h5>MACCLM</h5>
+                <h5>Al Ehsan</h5>
                 <ul class="nav flex-column">
-                    <li class="nav-item mb-2"><a href="/events" class="nav-link p-0 text-dark"><i class="bi bi-calendar3-event"></i> Events</a></li>
-                    <li class="nav-item mb-2"><a href="/about" class="nav-link p-0 text-dark"><i class="bi bi-info-square"></i> About</a></li>
+                    <li class="nav-item mb-2"><a href="{{ site.baseurl }}/events" class="nav-link p-0 text-dark"><i class="bi bi-calendar3-event"></i> Events</a></li>
+                    <li class="nav-item mb-2"><a href="{{ site.baseurl }}/about" class="nav-link p-0 text-dark"><i class="bi bi-info-square"></i> About</a></li>
                 </ul>
             </div>
             <div class="col-sm">
@@ -54,6 +54,6 @@
 {% endif %}
 
 <!-- photo-gallery stuffs -->
-<script type="text/javascript" src="/assets/js/lightbox.js"></script>
-<link rel="stylesheet" href="/assets/css/lightbox.css">
+<script type="text/javascript" src="{{ site.baseurl }}/assets/js/lightbox.js" ></script>
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/lightbox.css" >
 <div id="lightbox" class="gallery" style="display: none;"></div>
