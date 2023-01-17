@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container">
-    <a class="navbar-brand" href="/">
+    <a class="navbar-brand" href="{{ site.baseurl }}/">
       <img src="{{ site.baseurl }}/assets/images/logo.png" width="50" class="d-inline-block align-middle" alt="Al Ehsan">
     </a>
 
@@ -19,11 +19,11 @@
             <div class="dropdown-divider"></div>
             {% else %}
             {% if subitem.tab == "newtab" %}
-            <a class="nav-link text-green" href="{{ subitem.link }}" target="_blank" rel="noreferrer noopener">
+            <a class="nav-link text-green" href="{{ site.baseurl }}{{ subitem.link }}" target="_blank" rel="noreferrer noopener">
               {{ subitem.name }}
             </a>
             {% else %}
-            <a class="dropdown-item text-green" href="{{ subitem.link }}">
+            <a class="dropdown-item text-green" href="{{ site.baseurl }}{{ subitem.link }}">
               {{ subitem.name }}
             </a>
             {% endif %}
