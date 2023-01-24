@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Contact
 permalink: /contact/
 ---
@@ -8,7 +8,7 @@ permalink: /contact/
     <div class="col-sm-4">
         <address>
             <strong>Al Ehsan Muslim Support Network of NE</strong><br>
-            344 Lowell Street<br>
+            8 Fairlawn Ln<br>
             Lexington, MA 02420<br><br>
             <abbr title="Email"><i class="bi bi-envelope"></i></abbr> 
             <a href="mailto:{{ site.email }}">{{ site.email }}</a>

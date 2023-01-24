@@ -1,5 +1,10 @@
 - name: About
-  link: /about
+  link: #
+  dropdown:
+    - name: Mission & Vision
+      link: /about/mission-vision
+    - name: Founding Members
+      link: /about/founders
 - name: Events
   link: /events
 - name: Contact
@@ -12,4 +17,4 @@
     - name: Partnership
       link: /partnership
     - name: Satellite center
-      link: /salellite-center
+      link: /satellite-center
