@@ -1,0 +1,9 @@
+
+
+{% for row in site.data.members | sort: 'name' %} 
+{% assign geoname = row.name | replace: ' ', '-' | downcase %}    
+{% assign places = site.data.place | where:"title", geoname %} 
+{% for coordinates in places %}
+  var point = new google.maps.LatLng({{ coordinates.location.latitude }}, {{ coordinates.location.longitude }});
+{% endfor %}
+{% endfor %}
