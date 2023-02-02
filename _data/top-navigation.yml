@@ -5,16 +5,16 @@
       link: /about/mission-vision
     - name: Founding Members
       link: /about/founders
-- name: Events
-  link: /events
-- name: Contact
+- name: Services
   link: #
   dropdown:
-    - name: Services
+    - name: Service Request
       link: /services
-    - name: Volunteer
+    - name: Volunteer Sign-up
       link: /volunteer
     - name: Partnership
       link: /partnership
-    - name: Satellite center
+    - name: Satellite Centers
       link: /satellite-center
+- name: Blogs
+  link: /blogs

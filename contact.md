@@ -7,7 +7,7 @@ permalink: /contact/
 <div class="row">
     <div class="col-sm-4">
         <address>
-            <strong>Al Ehsan Muslim Support Network of NE</strong><br>
+            <strong>Al Ehsaan Muslim Support Network of NE</strong><br>
             8 Fairlawn Ln<br>
             Lexington, MA 02420<br><br>
             <abbr title="Email"><i class="bi bi-envelope"></i></abbr> 

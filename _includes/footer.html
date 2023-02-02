@@ -2,19 +2,25 @@
     <div class="container">
         <div class="row">
             <div class="col-sm">
-                <h5>Al Ehsan</h5>
+                <h5>Al Ehsaan</h5>
                 <ul class="nav flex-column">
                     <li class="nav-item mb-2"><a href="{{ site.baseurl }}/events" class="nav-link p-0 text-dark"><i class="bi bi-calendar3-event"></i> Events</a></li>
                     <li class="nav-item mb-2"><a href="{{ site.baseurl }}/about" class="nav-link p-0 text-dark"><i class="bi bi-info-square"></i> About</a></li>
                 </ul>
             </div>
             <div class="col-sm">
-                <h5>Social</h5>
+                <h5>WhatsApp Groups</h5>
                 <ul class="nav flex-column">
                     <li class="nav-item mb-2">
                         <a href="https://chat.whatsapp.com/DQ47kJqJMrk6LyMQ5Z2VeP" target="_blank"
                             rel="noreferrer noopener" class="nav-link p-0 text-dark">
-                            <i class="bi bi-whatsapp"></i> Join <i>"You are not Alone"</i> WhatsApp Group
+                            <i class="bi bi-whatsapp"></i> Join <i>"You are not Alone"</i> 
+                        </a>
+                    </li>
+                    <li class="nav-item mb-2">
+                        <a href="https://chat.whatsapp.com/HtwtjsSkmXO54DwdH7FUyx" target="_blank"
+                            rel="noreferrer noopener" class="nav-link p-0 text-dark">
+                            <i class="bi bi-whatsapp"></i> Join <i>"Al Ehsaan - Senior Support"</i> 
                         </a>
                     </li>
                 </ul>
@@ -23,17 +29,18 @@
             <div class="col">
                 <h5>Contact</h5>
                 <address>
-                    <em>Al Ehsan Muslim Support Network of NE</em><br>
+                    <em>Al Ehsaan Muslim Support Network of NE</em><br>
                     8 Fairlawn Ln<br>
                     Lexington, MA 02420<br><br />
                     <abbr title="Email"><i class="bi bi-envelope"></i></abbr> <a href="mailto:{{ site.email }}">{{ site.email }}</a><br />
-                    <abbr title="Phone"><i class="bi bi-telephone"></i></abbr> {{ site.phone }}
+                    <abbr title="Phone"><i class="bi bi-telephone"></i></abbr> {{ site.phone }} <br />
+                    (Please Send a Text Before Calling)
                 </address>
             </div>
         </div>
 
         <div class="py-4 mt-4 border-top">
-            <p class="float-left">Copyright &copy; 20{{ site.time | date: '%y' }} Al Ehsan. All Rights Reserved.</p>
+            <p class="float-left">Copyright &copy; 20{{ site.time | date: '%y' }} Al Ehsaan. All Rights Reserved.</p>
             <div class="text-muted float-right">
                 <small>revision: {{ site.data['hash'] }}</small>
             </div>
@@ -50,7 +57,7 @@
     crossorigin="anonymous"></script>
 
 {% if jekyll.environment == 'production' %}
-{% include google_analytics.html %}
+    {% include google_analytics.html %}
 {% endif %}
 
 <!-- photo-gallery stuffs -->
