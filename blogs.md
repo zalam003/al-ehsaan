@@ -5,8 +5,6 @@ permalink: /blogs/
 ---
 
 
-### Coming Soon!
-
 <div class="row">
   <div class="col-sm-8">
   {% for post in site.posts %}
