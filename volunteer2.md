@@ -182,15 +182,8 @@ JotForm.paymentExtrasOnTheFly([null,null,null,null,null,null,{"name":"chooseServ
       all_spc[i].value = "230327048408149-230327048408149";
     }
   </script>
-  <!-- 
-  <div class="formFooter-heightMask"></div>
-  <div class="formFooter f6 branding21">
-    <div class="formFooter-wrapper formFooter-leftSide"><a href="https://www.jotform.com/?utm_source=formfooter&utm_medium=banner&utm_term=230327048408149&utm_content=jotform_logo&utm_campaign=powered_by_jotform_le" target="_blank" class="formFooter-logoLink"><img class="formFooter-logo" src="https://cdn.jotfor.ms/assets/img/logo2021/jotform-logo-white.svg" alt="Jotform Logo" style="height: 44px;"></a></div>
-    <div class="formFooter-wrapper formFooter-rightSide"><span class="formFooter-text">Now create your own Jotform - It's free!</span><a class="formFooter-button" href="https://www.jotform.com/?utm_source=formfooter&utm_medium=banner&utm_term=230327048408149&utm_content=jotform_button&utm_campaign=powered_by_jotform_le" target="_blank">Create your own Jotform</a></div>
-  </div>
-  -->
+
 </form>
 <script type="text/javascript">JotForm.ownerView=true;</script><script src="https://cdn.jotfor.ms//js/vendor/smoothscroll.min.js?v=3.3.39013">
-    
 </script>
 <script src="https://cdn.jotfor.ms//js/errorNavigation.js?v=3.3.39013"></script>
