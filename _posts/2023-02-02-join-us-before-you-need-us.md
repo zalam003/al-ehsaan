@@ -3,11 +3,14 @@ layout: post
 title:  "Join Us Before You Need Us!"
 date:   2023-02-02 20:30:00 -0500
 categories: blogs update
+excerpt_separator: <!--post-contents-->
 ---
 
 Sr. K (name disguised for confidentiality) called us two days ago to help her.
 
 She has been giving care to her 90 year old mom at home for 2 years. Sr. K took her mom home after doctors sent her to hospice two years ago. She had no idea mom would live so long. (Alhamdulillah). Recently mom’s health deteriorated and may pass away any time (Allah knows the best). Sr. K connected with Al-Ehsaan for help.
+
+<!--post-contents-->
 
 <OL>
 	<LI>What religious rites she can do?</LI>
