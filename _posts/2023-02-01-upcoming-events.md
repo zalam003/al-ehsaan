@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Know Us Before You Need Us!"
+title:  "Upcoming Events"
 date:   2023-02-01 13:35:29 -0500
 categories: blogs update
 ---
