@@ -35,5 +35,5 @@ gem "http_parser.rb", "~> 0.8.0", :platforms => [:jruby]
 # jekyll-maps
 #gem "jekyll-maps", "~> 2.4"
 
-gem 'jekyll-geocode', '~> 0.2'
-gem "webrick", "~> 1.7"
+#gem 'jekyll-geocode', '~> 0.2'
+#gem "webrick", "~> 1.7"
